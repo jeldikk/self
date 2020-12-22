@@ -1,10 +1,13 @@
 import React from 'react'
 
+import ImageRoller from "../../components/image-roller/image-roller.component"
+import TitleCard from "../../components/title-card/title-card.component"
 
 const Homepage = () => {
     return (
         <div className="homepage">
-            This is the homepage
+            <ImageRoller />
+            <TitleCard />
         </div>
     )
 }

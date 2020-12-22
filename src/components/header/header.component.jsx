@@ -4,7 +4,7 @@ import {Container, Navbar, Nav} from 'react-bootstrap'
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="/">@jeldikk</Navbar.Brand>
@@ -15,7 +15,6 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
-
         </header>
     )
 }
