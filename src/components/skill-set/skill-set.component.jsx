@@ -7,7 +7,9 @@ import {
     SiJavascript,
     SiNodeDotJs,
     SiReact,
-    SiGithub
+    SiGithub,
+    SiFirebase,
+    SiBootstrap
 } from "react-icons/si";
 
 import "./skill-set.styles.scss"
@@ -20,8 +22,10 @@ const SkillSet = () => {
             <SiCss3 />
             <SiJavascript />
             <SiNodeDotJs />
+            <SiBootstrap />
             <SiReact />
             <SiGithub />
+            <SiFirebase />
         </div>
     );
 };

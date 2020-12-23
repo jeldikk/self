@@ -5,11 +5,8 @@ import "./title-card.styles.scss"
 const TitleCard = () => {
     return (
         <div className='title-card text-center'>
-            {/* <p className="h1">I'm</p> */}
-            <div className="title-name">J Kamal Kumar</div>
-            <p className="h4">An Engineer by profession and Web Developer by passion</p>
-            {/* <hr className="custom-hr" />
-            <hr /> */}
+            <div className="title-name"><span className="initial">J</span> <span className="firstName">Kamal</span> <span className="lastName">Kumar</span></div>
+            <p className="caption">An Engineer by Profession and Web Developer by Passion</p>
         </div>
     )
 }

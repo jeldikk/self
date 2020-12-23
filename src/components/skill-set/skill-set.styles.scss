@@ -1,6 +1,14 @@
 .skill-set{
     margin-top: 2rem;
     display: flex;
-    font-size: 5rem;
-    justify-content: space-evenly
+    font-size: 7rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0 50px 0;
+
+    @media screen and (max-width:575.98px){
+        padding: 10px;
+        margin: 20px 0 20px 0;
+        font-size: 2.5rem;
+    }
 }

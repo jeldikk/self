@@ -18,7 +18,6 @@ export class ImageRoller extends Component {
 
     componentDidMount(){
         this.counter = setInterval(()=>{
-            // console.log("Output from Timer");
             this.setState({count:  this.state.count%5 + 1})
         }, 1500)
     }

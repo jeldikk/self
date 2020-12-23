@@ -1,6 +1,13 @@
 .image-roller{
 
     .actual-image{
-        height: 35vh;
+        height: 40vh;
+    }
+
+    @media screen and (max-width:575.98px){
+        // Here goes the xs devices(mobile phones)
+        .actual-image{
+            height: 30vh;
+        }
     }
 }
