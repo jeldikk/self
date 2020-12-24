@@ -8,7 +8,7 @@ import "./footer.styles.scss"
 
 const Footer = () => {
     return (
-        <div className="footer bg-dark text-center">
+        <div className="footer bg-dark text-center fixed-bottom">
             Made with <FaHeartbeat /> on <BsBootstrap /> + <SiReact />
         </div>
     )

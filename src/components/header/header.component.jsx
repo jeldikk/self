@@ -8,7 +8,7 @@ import "./header.styles.scss"
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header fixed-top">
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="/"><img className="logo_image rounded-circle" src={LogoImage} /> @jeldikk</Navbar.Brand>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import './App.scss';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -16,6 +16,7 @@ function App() {
         <Homepage />
         <SkillSet />
       </main>
+      <p className="bottom-text text-center">... and the upgradation still continues on</p>
       <Footer />
     </div>
   );
