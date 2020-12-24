@@ -1,3 +1,9 @@
+# React and Bootstrap project
+
+Todo:
+[*] Need to update site with gatsby to avoid no image thumbnail on duty to latency in response. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
