@@ -14,14 +14,16 @@
         font-size: 2rem;
     }
 
-    @media screen and (max-width:575.98px){
+    @media screen and (max-width:767.98px){
+
+        margin: 0;
 
         .title-name{
-            font-size: 4rem;
+            font-size: 3rem;
         }
 
         .caption{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
 
         .lastName{
