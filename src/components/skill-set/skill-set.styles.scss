@@ -1,3 +1,8 @@
+// @import "../../../node_modules/bootstrap/scss/mixins"
+@import "../../../node_modules/bootstrap//scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
 .skill-set{
     margin-top: 2rem;
     display: flex;
@@ -10,13 +15,14 @@
         margin: 0 20px 0 20px;
     }
 
-    @media screen and (max-width:767.98px){
+    @include media-breakpoint-between(xs,sm){
         padding: 10px;
         margin: 20px 0 20px 0;
         font-size: 3rem;
 
         svg{
-            margin: 10px 5px 0 5px;
+            margin: 10px 5px 0 10px;
         }
     }
+
 }

@@ -1,0 +1,22 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.homepage{
+
+    display: block;
+
+    @include media-breakpoint-only(sm){
+        display: flex;
+        flex-direction: row;
+
+        // .image-roller{
+        //     width: 30%;
+        // }
+
+        .title-card{
+            width: 70%;
+            margin-top: auto;
+        }
+    }
+}

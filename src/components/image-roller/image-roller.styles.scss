@@ -1,13 +1,24 @@
+// @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../../node_modules//bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
 .image-roller{
 
     .actual-image{
         height: 40vh;
     }
 
-    @media screen and (max-width:767.98px){
-        // Here goes the xs devices(mobile phones)
+    @include media-breakpoint-only(xs){
+
         .actual-image{
-            height: 30vh;
+            height: 25vh;
+        }
+    }
+
+    @include media-breakpoint-only(sm){
+        .actual-image{
+            height: 50vh;
         }
     }
 }
