@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap');
 
+// This scss file does not use bootstrap mixins for different screen sizes
+
 .title-card{
 
     font-family: 'Monda', sans-serif;
@@ -14,20 +16,36 @@
         font-size: 2rem;
     }
 
-    @media screen and (max-width:767.98px){
+    @media (max-width:575.98px){
 
         margin: 0;
 
         .title-name{
+            padding: 10px;
             font-size: 3rem;
+
+            .lastName{
+                display: none;
+            }
         }
 
         .caption{
             font-size: 1.2rem;
         }
 
-        .lastName{
-            display: none;
+        
+    }
+ 
+    @media (min-width:576px) and (max-width: 767.98px){
+        padding: 10px;
+
+        .title-name{
+            font-size: 3rem;
+
+        }
+
+        .caption{
+            font-size: 1.2rem;
         }
     }
 }
