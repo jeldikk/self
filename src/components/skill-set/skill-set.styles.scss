@@ -5,20 +5,22 @@
 
 .skill-set{
     margin-top: 2rem;
-    display: flex;
+    // display: flex;
     font-size: 7rem;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 50px 0 50px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 
     svg{
         margin: 0 20px 0 20px;
+        display: inline-block;
     }
 
     @include media-breakpoint-between(xs,sm){
         padding: 10px;
-        margin: 20px 0 20px 0;
-        font-size: 3rem;
+        // margin: 20px 0 20px 0;
+        font-size: 4rem;
+        // overflow-x: scroll;
 
         svg{
             margin: 10px 5px 0 10px;

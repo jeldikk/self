@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Container} from 'react-bootstrap'
+
 import {
     SiPython,
     SiHtml5,
@@ -10,14 +12,16 @@ import {
     SiGithub,
     SiFirebase,
     SiBootstrap,
-    SiMarkdown
+    SiMarkdown,
+    SiRedux,
+    SiElectron
 } from "react-icons/si";
 
 import "./skill-set.styles.scss"
 
 const SkillSet = () => {
     return (
-        <div className="skill-set text-center">
+        <Container fluid className="skill-set">
             <SiPython />
             <SiHtml5 />
             <SiCss3 />
@@ -26,9 +30,11 @@ const SkillSet = () => {
             <SiBootstrap />
             <SiMarkdown />
             <SiReact />
+            <SiRedux />
+            <SiElectron />
             <SiGithub />
             <SiFirebase />
-        </div>
+        </Container>
     );
 };
 
